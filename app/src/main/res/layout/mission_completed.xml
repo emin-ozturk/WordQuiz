@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#66BB6A"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Görev Tamamlandı"
+        android:textSize="28sp"
+        android:textColor="@color/colorWhite"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/trophy" />
+
+    <TextView
+        android:id="@+id/txtMission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kolay seviyede 100 altın kazan"
+        android:textSize="17sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/money" />
+
+        <TextView
+            android:id="@+id/txtMoney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="100"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnReward"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ödülü Al"
+        android:background="@drawable/btn_reward"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"/>
+
+</LinearLayout>

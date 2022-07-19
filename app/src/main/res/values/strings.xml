@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Word Quiz</string>
+    <string name="back">Ana Sayfa</string>
+    <string name="new_play">Yeni Oyun</string>
+</resources>
